@@ -1,13 +1,12 @@
 ---
-title: "Christina's Website"
+title: "Christina Chen's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
-    code_folding: hide
 ---
 
-# Welcome!
+## Welcome!
 
 This is where you can find information about me and my work as a public health student at Columbia Mailman School of Public Health.
 

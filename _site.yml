@@ -9,6 +9,8 @@ navbar:
       href: mailto:<cxlchen54@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/cslc-2/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/cxlchen
 output:
   html_document:
     theme: flatly
