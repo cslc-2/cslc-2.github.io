@@ -1,0 +1,90 @@
+---
+title: "Résumé"
+output: 
+html_document:
+    toc: true
+    toc_float: true
+---
+
+## EDUCATION
+### Columbia University, Mailman School of Public Health (Expected May 2027)
+_Master of Public Health in Epidemiology_, Certificate in Epidemiology of Public Health
+
+New York, NY
+
+### Washington University in St. Louis (2018 - 2022)
+_Philosophy-Neuroscience-Psychology_
+
+St. Louis, MO
+
+## EXPERIENCE
+### Columbia – WHO Center for Global Mental Health (May 2026 - present)
+_Research Assistant_
+
+New York, NY
+
+* Update the 45-instrument FLII-11 REDCap project to align with the most recent FLII-11 Qualtrics version in wording, calculations, branching logic, and survey flow
+* Analyze data provided by BasicNeeds-Ghana to evaluate the impacts of a sustainable farming project aimed at improving nutrition and social, economic, and mental well-being of people with mental health conditions, their caregivers, and widows in Northern Ghana
+* Conduct a literature review on risk and protective factors for adolescent mental health disorders to support a data analysis plan for longitudinal mental health data on teens in South Africa
+
+### New York City Department of Health and Mental Hygiene (June 2026 - August 2026)
+_Health Research Training Program Intern, Bureau of Mental Health_
+
+New York, NY
+
+* Generate prevalence tables in SUDAAN looking at serious psychological distress (SPD), unmet mental health needs, and mental health treatment from the NYC Community Health Survey (CHS) years 2023, 2024, and combined 2023-2024
+* Mapped SPD, unmet mental health needs, and mental health treatment by community district from NYC CHS 2023-2024 in ArcGIS Pro
+* Perform analyses on the prevalence of SPD by housing groups and housing stability in NYC adults
+* Conduct a literature review on positive mental health measures for use in future surveys and presented findings to Survey Data team in the Bureau of Mental Health
+
+
+### Washington University School of Medicine (June 2022 - June 2025)
+_Clinical Research Coordinator_
+
+St. Louis, MO
+
+* Coordinated the Suicidal Thoughts and Actions Research in Kids (STARK) study and Peer Experiences in Puberty (PEP) study, including screening, scheduling, and consenting participants, leading weekly meetings, and managing the IRB projects
+* Developed REDCap projects with over 30 instruments for interview and survey data collection on sociodemographic characteristics, DSM-V symptoms of psychopathology, family mental health history, and general well-being
+* Conducted over 200 KSADS-ED and KSADS-PL clinical interviews to qualitatively assess symptoms of psychopathology and risk factors for suicidal thoughts and behaviors in children ages 4-7
+* Managed and trained 6 new interviewers on suicide and non-suicidal self-injury safety planning and DCFS reporting
+* Cleaned and organized survey datasets in SPSS for analysis on emotional processes in middle childhood
+* Developed SOPs for Excel, REDCap, and EPIC data entry and reporting that has been used for STARK, PEP, and 3 other studies in the Early Emotional Development Program
+
+### Uncle Joe's Peer Counseling and Resource Center (January 2020 - May 2022)
+_Peer Counselor for Undergraduate Students_
+
+St. Louis, MO
+
+* Provided emotional support and resources for a variety of concerns, such as grief, suicide, and interpersonal violence
+* Worked 24-hour phone shifts and 3-hour in-person shifts (total: 340+ hours)
+* Trained new counselors for Uncle Joe’s and St. Louis Queer+ Support Helpline
+
+## PUBLICATIONS
+
+Hennefield L, **Chen C**, Agali U, Luby JL, Preliminary Validity for a Brief Caregiver-Report Screener for Suicidal Thoughts and Behaviors in Children Under Age 8, *JAACAP Open* (2025), doi: https://doi.org/10.1016/j.jaacop.2025.02.004.
+
+## PRESENTATIONS
+
+**Poster Presentation**, “Examining DSM-5 disorders associated with suicidal thoughts and behaviors in young children,” Society for Research in Child Development, May 2025
+
+**Poster Presentation**, “Preschool-onset major depressive disorder predicts self-injurious thoughts and behaviors into early adolescence,” Society for Research in Psychopathology, September 2023
+
+## SKILLS AND CERTIFICATIONS
+
+**Statistics**: SPSS, SAS, SUDAAN, R
+
+**Medical Data**: REDCap, EPIC
+
+**Computer**: MS Office (Word, Excel, PowerPoint)
+
+**Languages**: Bilingual in English and Mandarin
+
+**Certifications**: HIPAA, IRB/CITI Human Subjects
+
+
+
+
+
+
+
+

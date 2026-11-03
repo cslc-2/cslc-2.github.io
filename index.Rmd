@@ -10,8 +10,16 @@ output:
 
 This is where you can find information about me and my work as a public health student at Columbia Mailman School of Public Health.
 
+### Links:
 
-### A bit about me:
+[Résumé](resume.html)
+
+[Github](http://github.com/cslc-2/)
+
+[LinkedIn](https://www.linkedin.com/in/cxlchen)
+
+
+### About me:
 
 I am from the Bay Area, California. I care a lot about mental health and have worked in the mental health field for most of my career. My favorite parts of my life are my cat, plants, and loved ones.
 
