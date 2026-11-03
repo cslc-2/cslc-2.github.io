@@ -1,0 +1,14 @@
+name: "Christina's Site"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<cxlchen54@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/cslc-2/
+output:
+  html_document:
+    theme: flatly

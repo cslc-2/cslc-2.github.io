@@ -1,0 +1,31 @@
+---
+title: "Christina's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+# Welcome!
+
+This is where you can find information about me and my work as a public health student at Columbia Mailman School of Public Health.
+
+
+### A bit about me:
+
+I am from the Bay Area, California. I care a lot about mental health and have worked in the mental health field for most of my career. My favorite parts of my life are my cat, plants, and loved ones.
+
+My cat, Soots:
+
+<img src = "images/soots.jpeg" style = "width:50%">
+
+Some of my plants:
+
+<img src = "images/plants.jpeg" style = "width:50%">
+
+
+
+
+
+
