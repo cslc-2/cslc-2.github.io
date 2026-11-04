@@ -16,11 +16,11 @@ library(p8105.datasets)
 ```{r}
 data(rest_inspec)
 
-nyc_rest =
+nyc_food =
   rest_inspec |> 
   select(dba, boro, zipcode, cuisine_description:score, inspection_type:longitude, grade, grade_date) |> 
-  filter(!(latitude == 0 & longitude == 0)) |> 
-  mutate(grade_month = lubridate::month(grade_date), grade_year = lubridate::year(grade_date), grade_day = lubridate::day(grade_date))
+  mutate(grade_month = lubridate::month(grade_date), grade_year = lubridate::year(grade_date), grade_day = lubridate::day(grade_date)) |> 
+  filter(!(latitude == 0 & longitude == 0), grade_year == 2019)
 ```
 
 
@@ -30,8 +30,8 @@ Column {data-width=650}
 ### Scatterplot
 
 ```{r}
-nyc_rest |>
-  filter(boro == "Manhattan", grade_year == 2019, !grade %in% c("P", "Z")) |> 
+nyc_food |>
+  filter(boro == "Manhattan", !grade %in% c("P", "Z")) |> 
   mutate(
     text_label = str_c("Restaurant name: ", dba, "\nGrade: ", grade)) |> 
   plot_ly(
@@ -43,15 +43,22 @@ nyc_rest |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Barchart
 
 ```{r}
-
+nyc_food |> 
+  filter(boro == "Manhattan") |> 
+  count(grade) |> 
+  mutate(grade = fct_reorder(grade, n)) |> 
+  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
 ```
 
-### Chart C
+### Boxplot
 
 ```{r}
-
+nyc_food |> 
+  filter(cuisine_description == "Bakery") |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
 ```
 
