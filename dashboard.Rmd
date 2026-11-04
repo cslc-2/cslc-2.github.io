@@ -1,9 +1,10 @@
 ---
-title: "Dashboard"
+title: "NYC Restaurants and Inspections"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    source_code: embed
 ---
 
 ```{r setup, include=FALSE}
@@ -27,7 +28,7 @@ nyc_food =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Scatterplot
+### Manhattan Restaurants and Grades
 
 ```{r}
 nyc_food |>
@@ -43,7 +44,7 @@ nyc_food |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Barchart
+### Manhattan Restaurants and Grade Counts
 
 ```{r}
 nyc_food |> 
@@ -53,7 +54,7 @@ nyc_food |>
   plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
 ```
 
-### Boxplot
+### Bakery Scores by Borough
 
 ```{r}
 nyc_food |> 
