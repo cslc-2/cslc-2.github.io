@@ -8,15 +8,36 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
 ```
+
+```{r}
+data(rest_inspec)
+
+nyc_rest =
+  rest_inspec |> 
+  select(dba, boro, zipcode, cuisine_description:score, inspection_type:longitude, grade, grade_date) |> 
+  filter(!(latitude == 0 & longitude == 0)) |> 
+  mutate(grade_month = lubridate::month(grade_date), grade_year = lubridate::year(grade_date), grade_day = lubridate::day(grade_date))
+```
+
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Scatterplot
 
 ```{r}
-
+nyc_rest |>
+  filter(boro == "Manhattan", grade_year == 2019, !grade %in% c("P", "Z")) |> 
+  mutate(
+    text_label = str_c("Restaurant name: ", dba, "\nGrade: ", grade)) |> 
+  plot_ly(
+    x = ~ latitude, y = ~longitude, type = "scatter", mode = "markers",
+    color = ~grade, text = ~text_label, alpha = 0.3, colors = "viridis"
+  )
 ```
 
 Column {data-width=350}
