@@ -44,14 +44,14 @@ nyc_food |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Manhattan Restaurants and Grade Counts
+### Restaurant Count Within Cuisine Categories in Manhattan
 
 ```{r}
 nyc_food |> 
   filter(boro == "Manhattan") |> 
-  count(grade) |> 
-  mutate(grade = fct_reorder(grade, n)) |> 
-  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
+  count(cuisine_description) |> 
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
+  plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar", colors = "viridis")
 ```
 
 ### Bakery Scores by Borough
